@@ -16,4 +16,12 @@ class ImperialApiTest {
         assertEquals(expected, result);
     }
 
+    @Test
+    public void meterTest1(){
+        double yard = 10;
+        double expected = 9.140767824497257;
+        double result = imperialApi.meter(10);
+        assertEquals(expected, result);
+    }
+
 }
