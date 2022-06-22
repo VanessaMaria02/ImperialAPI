@@ -6,6 +6,10 @@ public class ImperialApi {
         return inch*2.54;
     }
 
+    public double meter(double yard){
+        return yard/1.094;
+    }
+
 
 
 }

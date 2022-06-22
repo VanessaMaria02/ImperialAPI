@@ -13,6 +13,11 @@ public class ImperialApiController {
     public double centimeter(@RequestParam double inch){
         return imperialApi.centimeter(inch);
     }
+
+    @RequestMapping("/api/meter")
+    public double meter(@RequestParam double yard){
+        return imperialApi.meter(yard);
+    }
 }
 
 
